@@ -49,18 +49,6 @@ public class MyUserAdapter extends ArrayAdapter<User_applied> implements FetchDa
     String path = null;
     FetchDataListener listen=this;
     Context context;
-
-
-
-
-
-
-
-
-
-
-
-    
     int count_flag=-1;
     File folder;
     int resume_flag=-1;
