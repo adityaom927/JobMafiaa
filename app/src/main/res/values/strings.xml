@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Get Job</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="product_name">Product Name</string>
+    <string name="txt_image_slider">Image Slideshow</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="time_out">Time Out</string>
+    <string name="error_occured">Error Occurred</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registration__user">Registration User</string>
+    <string name="title_activity_registration__company">Registration Company</string>
+    <string name="title_activity_registration__consultancy">Registration Consultancy</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_job__post">Job Post</string>
+    <string name="title_activity_job_">Job_Activity</string>
+    <string name="title_activity_user_">User Activity</string>
+    <string name="title_activity_user__post">User_Post</string>
+    <string name="title_activity_database__monitor">Database_Monitor</string>
+    <string name="title_activity_company__profile">Company Profile</string>
+    <string name="title_activity_user__profile">User Profile</string>
+    <string name="facebook_app_id">481121492059542</string>
+    <string name="title_activity_search_">Search Activity</string>
+    <string name="title_activity_advance__search">Advance Search</string>
+    <string-array name="stateName">
+        <item>Australian Capital Territory</item>
+        <item>New South Wales</item>
+        <item>Northern Territory</item>
+        <item>Queensland</item>
+        <item>South Australia</item>
+        <item>Tasmania</item>
+        <item>Victoria</item>
+        <item>Western Australia</item>
+    </string-array>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="server_client_id">26831155279-5k5b59hsvb8k0jchdf8tj6jhij6r8uc0.apps.googleusercontent.com</string>
+
+    <string name="title_activity_splash__screen">Splash_Screen</string>
+    <string name="title_activity_jobs_for_u">Jobs_for_u</string>
+
+</resources>

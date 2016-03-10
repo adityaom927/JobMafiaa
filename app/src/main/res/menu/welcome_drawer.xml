@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wel_search"
+            android:icon="@drawable/search"
+            android:title="Search Jobs" />
+        <item
+            android:id="@+id/nav_wel_alljobs"
+            android:icon="@drawable/checked1"
+            android:title="All Jobs" />
+        <item
+            android:id="@+id/nav_wel_reg"
+            android:icon="@drawable/register"
+            android:title="Register Now" />
+        <item
+            android:id="@+id/nav_wel_login"
+            android:icon="@drawable/user2"
+            android:title="Login" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/na_wel_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/na_wel_rate"
+                android:icon="@drawable/star"
+                android:title="Rate" />
+        </menu>
+    </item>
+
+</menu>

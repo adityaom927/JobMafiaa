@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <AutoCompleteTextView
+            android:id="@+id/edit_user_pref_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Preferred Location"
+            android:textAlignment="center">
+            <requestFocus/>
+        </AutoCompleteTextView>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <AutoCompleteTextView
+            android:id="@+id/edit_user_pref_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Preferred Field"
+            android:textAlignment="center">
+            <requestFocus/>
+        </AutoCompleteTextView>
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

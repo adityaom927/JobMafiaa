@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="55dp"
+    android:background="#e3f2fd"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/l_adv_srch_job_title">
+            <Spinner
+                android:id="@+id/adv_srch_job_title"
+                android:layout_width="match_parent"
+                android:completionThreshold="1"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/l_adv_srch_job_title"
+            android:id="@+id/l_adv_srch_job_skill">
+            <Spinner
+                android:id="@+id/adv_srch_job_skill"
+                android:completionThreshold="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adv_srch_job_exp"
+        android:hint="Experience"
+        android:textAlignment="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/l_adv_srch_job_skill"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/adv_srch_job_exp"
+            android:id="@+id/l_adv_srch_job_loc">
+            <Spinner
+                android:id="@+id/adv_srch_job_loc"
+                android:layout_marginTop="15dp"
+                android:completionThreshold="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"/>
+        </android.support.design.widget.TextInputLayout>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adv_srch_job_type"
+        android:hint="Job Type"
+        android:textAlignment="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/l_adv_srch_job_loc"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adv_srch_job_salto"
+        android:hint="Salary To:"
+        android:textAlignment="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/adv_srch_job_type"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"/>
+
+
+    </RelativeLayout>

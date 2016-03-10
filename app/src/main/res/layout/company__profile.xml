@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.app.finalcode.getjob.getjob.activity.Company_Profile"
+    android:background="#e3f2fd">
+
+
+    <include layout="@layout/company_profile_content" />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+            <TextView
+                android:id="@+id/tool_text"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:text="Post New Job"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.Toolbar>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="56dp"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Designation"
+        android:textAlignment="center"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"
+        android:id="@+id/addp_design" />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Min. Qualification"
+        android:textAlignment="center"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"
+        android:layout_below="@+id/addp_design"
+        android:id="@+id/addp_company" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Min. Experience"
+        android:textAlignment="center"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"
+        android:layout_below="@+id/addp_company"
+        android:id="@+id/addp_exp" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Min. Skills Req."
+        android:textAlignment="center"
+        android:completionThreshold="1"
+        android:layout_below="@+id/addp_exp"
+        android:id="@+id/addp_skill" />
+
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Domain Industry"
+        android:textAlignment="center"
+        android:completionThreshold="1"
+        android:layout_below="@+id/addp_skill"
+        android:id="@+id/addp_ind"/>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Location"
+        android:textAlignment="center"
+        android:completionThreshold="1"
+        android:layout_below="@+id/addp_ind"
+        android:id="@+id/addp_loc"/>
+
+    <LinearLayout
+        android:id="@+id/addp_lay7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addp_loc"
+        android:orientation="horizontal">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Last Date"
+            android:inputType="date"
+            android:textAlignment="center"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="?colorAccent"
+            android:id="@+id/addp_date" />
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Pick Date"
+            android:id="@+id/addp_datebtn" />
+
+    </LinearLayout>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Description"
+        android:textAlignment="center"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"
+        android:layout_below="@+id/addp_lay7"
+        android:id="@+id/addp_terms" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Vacancy"
+        android:textAlignment="center"
+        android:inputType="number"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"
+        android:layout_below="@+id/addp_terms"
+        android:id="@+id/addp_vacancy" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salary to:"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"
+        android:layout_below="@+id/addp_vacancy"
+        android:id="@+id/addp_sal_to" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salary From:"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"
+        android:layout_below="@+id/addp_sal_to"
+        android:id="@+id/addp_sal_from" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Job"
+        android:id="@+id/addp_postbtn" />
+    </LinearLayout>
+</ScrollView>
+    </android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/add_edu_quali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qualification"
+        android:textAlignment="center"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent">
+        <requestFocus/>
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/add_edu_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bord/University"
+        android:textAlignment="center"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/add_edu_passyr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Passing year"
+        android:textAlignment="center"
+        android:inputType="number"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/add_edu_perc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="percentage of passing"
+        android:textAlignment="center"
+        android:inputType="number"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="?colorAccent"/>
+
+</LinearLayout>

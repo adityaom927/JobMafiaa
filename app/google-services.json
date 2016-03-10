@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_id": "getjobs-bd269",
+    "project_number": "26831155279",
+    "name": "GetJobs"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26831155279:android:394bbc283d71493f",
+        "client_id": "android:com.app.finalcode.getjob.getjob",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.app.finalcode.getjob.getjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26831155279-5k5b59hsvb8k0jchdf8tj6jhij6r8uc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.finalcode.getjob.getjob",
+            "certificate_hash": "9AF023B97C22E76055FDB0FC88C964A23E08B6B2"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

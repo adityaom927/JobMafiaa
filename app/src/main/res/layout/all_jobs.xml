@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.All_Jobs"
+    android:background="#e3f2fd">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+        <TextView
+            android:id="@+id/tool_text"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Job Mafiaa"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </android.support.v7.widget.Toolbar>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginBottom="10dp"
+       android:layout_marginTop="60dp">
+       <ListView
+           android:id="@+id/job_post"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:divider="@android:color/transparent"
+           android:dividerHeight="17.0px">
+
+       </ListView>
+   </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

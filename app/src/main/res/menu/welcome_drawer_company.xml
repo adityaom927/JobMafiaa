@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_wel_companyprofile"
+        android:icon="@drawable/user2"
+        android:title="Company Profile" />
+    <item
+        android:id="@+id/nav_wel_starredjobs"
+        android:icon="@drawable/star"
+        android:title="Starred Jobs" />
+    <item
+        android:id="@+id/nav_wel_allseeker"
+        android:icon="@drawable/employee"
+        android:title="All Job Seekers" />
+    <item
+        android:id="@+id/nav_wel_appliers"
+        android:icon="@drawable/allapp"
+        android:title="All Job Appliers" />
+    <item
+        android:id="@+id/nav_wel_myposts"
+        android:icon="@drawable/alljobs"
+        android:title="My Job Posts" />
+    <item
+        android:id="@+id/nav_wel_newpost"
+        android:icon="@drawable/addjob"
+        android:title="New Job Posts" />
+    <item
+        android:id="@+id/nav_wel_search"
+        android:icon="@drawable/search"
+        android:title="Search Jobs" />
+    <item
+        android:id="@+id/nav_wel_advsearch"
+        android:icon="@drawable/advance"
+        android:title="Advance Search" />
+    <item
+        android:id="@+id/nav_wel_searchloc"
+        android:icon="@drawable/searchloc"
+        android:title="Search By Location" />
+    <item
+        android:id="@+id/nav_wel_searchskills"
+        android:icon="@drawable/skill"
+        android:title="Search By Skills" />
+    <item
+        android:id="@+id/nav_wel_searchind"
+        android:icon="@drawable/ind"
+        android:title="Search By Industry" />
+    <item
+        android:id="@+id/nav_wel_search_comp"
+        android:icon="@drawable/comp"
+        android:title="Search By Company" />
+    <item
+        android:id="@+id/nav_wel_allposts"
+        android:icon="@drawable/allapp"
+        android:title="All Job Posts" />
+    <item
+        android:id="@+id/nav_wel_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+</group>
+
+<item android:title="Communicate">
+    <menu>
+        <item
+            android:id="@+id/na_wel_share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+        <item
+            android:id="@+id/na_wel_rate"
+            android:icon="@drawable/star"
+            android:title="Rate" />
+    </menu>
+</item>
+
+</menu>
