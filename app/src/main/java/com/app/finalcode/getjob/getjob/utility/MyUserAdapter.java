@@ -47,6 +47,7 @@ public class MyUserAdapter extends ArrayAdapter<User_applied> implements FetchDa
 {
     View v;
     String path = null;
+            //;
     FetchDataListener listen=this;
     Context context;
     int count_flag=-1;
